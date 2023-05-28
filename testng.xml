@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DataDriven">
+<listeners>
+<listener class-name="org.Utilities.Listeners"/>
+</listeners>
+  <test name="DatadrivenTest">
+    <classes>
+      <class name="org.Test.UserTests"/>
+      <!-- -  <class name="org.Test.DataDrivenTests"/> --> 
+    </classes>
+  </test> 
+</suite> 

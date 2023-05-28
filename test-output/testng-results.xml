@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DataDriven" duration-ms="19921" started-at="2023-05-27T20:10:16 IST" finished-at="2023-05-27T20:10:36 IST">
+    <groups>
+    </groups>
+    <test name="DatadrivenTest" duration-ms="19921" started-at="2023-05-27T20:10:16 IST" finished-at="2023-05-27T20:10:36 IST">
+      <class name="org.Test.UserTests">
+        <test-method status="PASS" signature="setUpData()[pri:0, instance:org.Test.UserTests@ed9d034]" name="setUpData" is-config="true" duration-ms="1651" started-at="2023-05-27T20:10:17 IST" finished-at="2023-05-27T20:10:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpData -->
+        <test-method status="PASS" signature="testPostUser()[pri:1, instance:org.Test.UserTests@ed9d034]" name="testPostUser" duration-ms="12155" started-at="2023-05-27T20:10:19 IST" finished-at="2023-05-27T20:10:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method status="PASS" signature="testGetUser()[pri:2, instance:org.Test.UserTests@ed9d034]" name="testGetUser" duration-ms="1415" started-at="2023-05-27T20:10:31 IST" finished-at="2023-05-27T20:10:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUser -->
+        <test-method status="PASS" signature="updateUser()[pri:3, instance:org.Test.UserTests@ed9d034]" name="updateUser" duration-ms="2495" started-at="2023-05-27T20:10:32 IST" finished-at="2023-05-27T20:10:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+        <test-method status="PASS" signature="deleteUser()[pri:4, instance:org.Test.UserTests@ed9d034]" name="deleteUser" duration-ms="1178" started-at="2023-05-27T20:10:35 IST" finished-at="2023-05-27T20:10:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- org.Test.UserTests -->
+    </test> <!-- DatadrivenTest -->
+  </suite> <!-- DataDriven -->
+</testng-results>
